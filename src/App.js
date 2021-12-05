@@ -11,17 +11,19 @@ import BarNav from "./components/communs/barNav/BarNav";
 function App() {
   return (
     <>
-      {/* Barre Nav */}
-      <BarNav />
-      {/* Routes */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/a-propos" element={<About />} />
-        <Route path="/cv" element={<Cv />} />
-        <Route path="/portefolio" element={<Portefolio />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <div className="bg-light_blue flex">
+        {/* Barre Nav */}
+        <BarNav />
+        {/* Routes */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/a-propos" element={<About />} />
+          <Route path="/cv" element={<Cv />} />
+          <Route path="/portefolio" element={<Portefolio />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
     </>
   );
 }
