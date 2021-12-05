@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img_profil from "../../../assets/img_profil.png";
+import img_profil from "../../../assets/imgBarNav/img_profil.png";
 
 const BarNav = () => {
   return (
