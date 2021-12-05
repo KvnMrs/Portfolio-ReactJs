@@ -5,21 +5,21 @@ import img_profil from "../../../assets/img_profil.png";
 const BarNav = () => {
   return (
     <>
-      <div className="bg-dark_blue text-white grid flex-shrink-0 grid-col w-64 p-auto h-screen text-center py-2">
+      <div className="bg-dark_blue text-white grid flex-shrink-0 grid-col w-80 h-screen text-center px-6">
         {/* PRENOM NOM */}
-        <div className="h-44">
+        <div className="mt-5">
           <img
             src={img_profil}
             alt="image-profil"
-            className="rounded-full w-44 m-auto my-5"
+            className="rounded-full w-44 mx-auto my-5"
           />
           <h1 className="text-4xl font-bold my-3">Marais Kévin</h1>
           <h2 className="text-xl font-semibold m-1">Developpeur Web Junior</h2>
           {/* IMG PROFIL */}
         </div>
-
+        <span className="border-solid border-b-2 border-white w-36 m-auto" />
         {/* NAVIGATION */}
-        <div className="grid flex-shrink-0 grid-col text-2xl h-80 mt-28">
+        <div className="grid flex-shrink-0 grid-col text-2xl h-80 mt-20">
           <Link to="/">
             <button
               type="button"
