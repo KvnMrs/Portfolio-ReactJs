@@ -7,6 +7,9 @@ import Cv from "./pages/Cv";
 import NotFound from "./pages/NotFound";
 import Portefolio from "./pages/Portefolio";
 import BarNav from "./components/communs/barNav/BarNav";
+import ExperiencesRestauration from "./components/uniques/ExperiencesRestauration";
+import ExperiencesAutre from "./components/uniques/ExperiencesAutre";
+import ExperiencesCoiffure from "./components/uniques/ExperiencesCoiffure";
 
 function App() {
   return (
@@ -21,6 +24,12 @@ function App() {
           <Route path="/a-propos" element={<About />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/portefolio" element={<Portefolio />} />
+          <Route
+            path="/cv/restauration"
+            element={<ExperiencesRestauration />}
+          />
+          <Route path="/cv/autre" element={<ExperiencesAutre />} />
+          <Route path="/cv/coiffure" element={<ExperiencesCoiffure />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
