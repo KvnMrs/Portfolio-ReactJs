@@ -1,11 +1,6 @@
-// import logo_ScaOuest from "../imgExperiences/logo_ScaOuest.png";
-import logo_FrenchPub from "../assets/imgExperiences/logo_FrenchPub.png";
-import logo_Opium from "../assets/imgExperiences/logo_Opium.png";
-
 const dataCv = [
   /********** RESTAURATION ***************/
   {
-    // img: logo_ScaOuest,
     date: "Mai 2021",
     entreprise: "Sca-Ouest ",
     lieu: "Saint-Etienne de Montluc",
@@ -14,7 +9,6 @@ const dataCv = [
     categorie: "autre",
   },
   {
-    // img: {},
     date: "Avril 2019 à Février 2020",
     entreprise: "L'Octopus ",
     lieu: "Nantes",
@@ -24,7 +18,6 @@ const dataCv = [
     categorie: "restauration",
   },
   {
-    img: logo_FrenchPub,
     date: " Septembre 2018 à Mars 2019",
     entreprise: "Le French Pub ",
     lieu: "Saint-Sébastien",
@@ -34,7 +27,6 @@ const dataCv = [
     categorie: "restauration",
   },
   {
-    img: logo_Opium,
     date: "Juin 2018 à Septembe 2018",
     entreprise: "L'Opium ",
     lieu: "Nantes",
@@ -43,9 +35,9 @@ const dataCv = [
       "Service et conception des boissons au bar, services des plats en salle",
     categorie: "restauration",
   },
+  /********** AUTRE ***************/
 
   {
-    // img: logo_Opium,
     date: "Septembre 2017 à Juin 2018",
     entreprise: "La Coquille ",
     lieu: "Nantes",
@@ -54,7 +46,6 @@ const dataCv = [
     categorie: "autre",
   },
   {
-    // img: logo_Opium,
     date: "Juin 2017 à Septembe 2017",
     entreprise: "Tipiak ",
     lieu: "Saint-Herblain",
@@ -63,8 +54,9 @@ const dataCv = [
       "Réalisation des commandes quotidienne, respect des protocole d'hygienne et de sécurité",
     categorie: "autre",
   },
+  /********** COIFFURE ***************/
+
   {
-    // img: logo_Opium,
     date: "Février 2017 à Juin 2018",
     entreprise: "Sam's Barber ",
     lieu: "Dublin",
@@ -73,7 +65,6 @@ const dataCv = [
     categorie: "coiffure",
   },
   {
-    // img: logo_Opium,
     date: "Novembre 2016 à Février 2017",
     entreprise: "Shampoo",
     lieu: "Saint-Sebastien",
@@ -83,7 +74,6 @@ const dataCv = [
     categorie: "coiffure",
   },
   {
-    // img: logo_Opium,
     date: "Septembre 2014 à Juin 2016",
     entreprise: "Saint-Algue",
     lieu: "Nantes",
@@ -92,7 +82,6 @@ const dataCv = [
     categorie: "coiffure",
   },
   {
-    // img: logo_Opium,
     date: "Septembre 2012 à Juin 2014",
     entreprise: "Saint-Algue",
     lieu: "Saint-Sebastien",
@@ -101,7 +90,6 @@ const dataCv = [
     categorie: "coiffure",
   },
   {
-    // img: logo_Opium,
     date: "Septembre 2010 à Juin 2012",
     entreprise: "Salon Saint-Joseph",
     lieu: "Saint Joseph de Porterie",
