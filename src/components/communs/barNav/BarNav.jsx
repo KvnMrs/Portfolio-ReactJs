@@ -90,7 +90,7 @@ const BarNav = () => {
                       py-2
                       "
             >
-              Mon portefolio
+              Mon portfolio
             </button>
           </Link>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cv.css";
-import dataFormations from "../../data/DataFormations";
+import dataFormations from "../../datas/DatasFormations";
 
 const Fomations = () => {
   return (

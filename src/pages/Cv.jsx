@@ -21,14 +21,14 @@ const Cv = () => {
           <button
             type="button"
             onClick={showExperiences}
-            className="text-2xl m-2 text-white bg-light_blue hover:bg-dark_blue hover:text-white py-1 px-7 rounded-2xl hover:shadow-xl"
+            className="text-2xl m-2 text-white border-2 border-gray-200 bg-dark_blue hover:bg-white hover:text-dark_blue py-1 px-7 rounded-2xl hover:shadow-xl"
           >
             Mes experiences
           </button>
           <button
             type="button"
             onClick={showFormations}
-            className="text-2xl m-2 text-white bg-light_blue  hover:bg-dark_blue hover:text-white py-1 px-7 rounded-2xl hover:shadow-xl"
+            className="text-2xl m-2 text-white border-2 border-gray-200 bg-dark_blue hover:bg-white hover:text-dark_blue py-1 px-7 rounded-2xl hover:shadow-xl"
           >
             Mes formations
           </button>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cv.css";
-import dataCv from "../../data/DataExperiences";
+import dataCv from "../../datas/DatasExperiences";
 
 const ExperiencesRestauration = () => {
   return (
