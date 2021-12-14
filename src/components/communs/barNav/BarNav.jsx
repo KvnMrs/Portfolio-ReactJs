@@ -5,15 +5,15 @@ import img_profil from "../../../assets/imgBarNav/img_profil.png";
 const BarNav = () => {
   return (
     <>
-      <div className="bg-dark_blue text-white grid flex-shrink-0 grid-col w-80 h-screen text-center px-6">
+      <div className="bg-dark_blue text-white grid flex-shrink-0 grid-col w-80 h-screen text-center px-6  ">
         {/* PRENOM NOM */}
-        <div className="mt-5">
+        <div className="mt-3">
           <img
             src={img_profil}
-            alt="image-profil"
+            alt="profil"
             className="rounded-full w-44 mx-auto my-5"
           />
-          <h1 className="text-4xl font-bold my-3">Marais Kévin</h1>
+          <h1 className="text-4xl font-bold mt-6">Marais Kévin</h1>
           <h2 className="text-xl font-semibold m-1">Developpeur Web Junior</h2>
           {/* IMG PROFIL */}
         </div>
@@ -33,7 +33,8 @@ const BarNav = () => {
                       hover:bg-white
                       hover:text-dark_blue
                       px-4
-                      py-2"
+                      py-2
+                      "
             >
               Accueil
             </button>
@@ -50,7 +51,8 @@ const BarNav = () => {
                       hover:bg-white
                       hover:text-dark_blue
                       px-4
-                      py-2"
+                      py-2
+                      "
             >
               À propos de moi
             </button>
@@ -67,7 +69,8 @@ const BarNav = () => {
                       hover:bg-white
                       hover:text-dark_blue
                       px-4
-                      py-2"
+                      py-2
+                      "
             >
               Mon CV
             </button>
@@ -84,7 +87,8 @@ const BarNav = () => {
                       hover:bg-white
                       hover:text-dark_blue
                       px-4
-                      py-2"
+                      py-2
+                      "
             >
               Mon portefolio
             </button>
@@ -102,7 +106,8 @@ const BarNav = () => {
                       hover:bg-white
                       hover:text-dark_blue
                       px-4
-                      py-2"
+                      py-2
+                      "
             >
               Me contacter
             </button>
