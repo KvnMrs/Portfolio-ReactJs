@@ -1,12 +1,3 @@
-.no-bar::-webkit-scrollbar {
-  display: none;
-}
-
-.no-bar {
-  -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
-}
-
 .gradiant {
   background: radial-gradient(#243b55, #141e30);
   /* background: radial-gradient(#141e30, #243b55); */
