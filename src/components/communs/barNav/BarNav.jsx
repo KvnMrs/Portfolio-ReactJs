@@ -5,7 +5,7 @@ import img_profil from "../../../assets/imgBarNav/img_profil.png";
 const BarNav = () => {
   return (
     <>
-      <div className="bg-dark_blue text-white grid flex-shrink-0 grid-col w-80 h-screen text-center px-6  ">
+      <div className="bg-dark_blue text-white grid flex-shrink-0 w-80 h-screen text-center px-6  ">
         {/* PRENOM NOM */}
         <div className="mt-3">
           <img
@@ -75,7 +75,7 @@ const BarNav = () => {
               Mon CV
             </button>
           </Link>
-          <Link to="/portefolio">
+          <Link to="/portfolio">
             <button
               type="button"
               className=" transition
