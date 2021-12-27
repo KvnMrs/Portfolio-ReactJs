@@ -1,0 +1,6 @@
+.gradiant-dark {
+  background: radial-gradient(#243b55, #141e30);
+}
+.gradiant-light {
+  background: radial-gradient(#141e30, #243b55);
+}

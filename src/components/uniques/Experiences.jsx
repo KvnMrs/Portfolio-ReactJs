@@ -1,11 +1,11 @@
 import React from "react";
-import "./Cv.css";
+import "./Style.css";
 import dataCv from "../../datas/DatasExperiences";
 
 const ExperiencesRestauration = () => {
   return (
     <>
-      <div className="w-11/12 bg-dark_blue scrollbar-hide gradiant rounded-2xl overflow-scroll divide-y divide-white h-5/6 mx-auto my-6 px-5 hover:shadow-2xl ">
+      <div className="w-11/12 bg-dark_blue scrollbar-hide gradiant-dark rounded-2xl overflow-scroll divide-y divide-white h-5/6 mx-auto my-6 px-5  shadow-2xl ">
         {dataCv.map((exp) => (
           <>
             <div className=" w-3/4 text-center py-8 px-20 m-auto ">

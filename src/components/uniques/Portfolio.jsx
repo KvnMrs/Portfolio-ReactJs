@@ -1,10 +1,11 @@
 import React from "react";
+import "./Style.css";
 import dataPortfolio from "../../datas/DatasPortfolio";
 
 const Portfolio = () => {
   return (
     <>
-      <div className="w-11/12 bg-dark_blue scrollbar-hide gradiant rounded-2xl overflow-scroll divide-y divide-white h-5/6 mx-auto my-6 px-5 hover:shadow-2xl ">
+      <div className="w-11/12 bg-dark_blue scrollbar-hide gradiant-dark rounded-2xl overflow-scroll divide-y divide-white h-5/6 mx-auto my-6 px-5 shadow-2xl ">
         {dataPortfolio.map((el) => (
           <>
             <div className=" w-3/4 text-center py-8 px-20 m-auto mt-5 ">
