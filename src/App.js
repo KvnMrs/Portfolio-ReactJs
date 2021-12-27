@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Cv from "./pages/Cv";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
-import BarNav from "./components/communs/barNav/BarNav";
+import BarNav from "./components/communs/BarNav";
 // import Experiences from "./components/uniques/Experiences";
 
 function App() {
