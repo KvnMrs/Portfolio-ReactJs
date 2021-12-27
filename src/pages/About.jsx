@@ -3,28 +3,27 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div>
-        <h2> En quelques mots..</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis
-          ex aliquam, volutpat ante sit amet, egestas erat. Mauris mollis urna
-          sit amet tincidunt aliquet. Mauris porta a turpis eleifend
-          ullamcorper. Curabitur et odio mattis, accumsan neque eget, pretium
-          enim. Phasellus mauris risus, pharetra nec urna sit amet, mattis
-          varius leo. Aliquam erat volutpat. Proin viverra vitae ex sit amet
-          malesuada. Pellentesque habitant morbi tristique senectus et netus et
-          malesuada fames ac turpis egestas. Vivamus fringilla quis neque ut
-          laoreet. Quisque elementum gravida turpis at eleifend.
+      <div className="mx-auto p-28">
+        <h2 className="text-white  text-3xl mb-6"> En quelques mots..</h2>
+        <p className="text-gray-200 text-2xl">
+          Nantais de 27 ans qui a décidé de faire prendre un
+          <span className="font-bold"> tournant</span> à sa vie
+          <span className="font-bold"> professionnelle</span>.
+          <span className="font-bold"> Actuellement</span> en formation au sein
+          de la
+          <span className="text-wild_red font-bold text-1xl">
+            {" "}
+            Wild Code School
+          </span>
+          , je <span className="font-bold">recherche</span> un
+          <span className="font-bold"> stage </span>afin de continuer à
+          <span className="font-bold"> acquérir </span>
+          plus d'<span className="font-bold">expériences </span>et de
+          <span className="font-bold"> techniques</span>. Issu de secteurs basés
+          sur la relation client, je connais l'importance de la recherche des
+          besoins et du suivi de ce dernier, afin d'aboutir à une satisfaction
+          commune et partagée.
         </p>
-      </div>
-
-      <div>
-        <div>
-          <h2>Softs skills</h2>
-        </div>
-        <div>
-          <h2>Hards skills</h2>
-        </div>
       </div>
     </>
   );
