@@ -1,5 +1,7 @@
 import React from "react";
 import SoftSkills from "../components/uniques/SoftSkills";
+import { Link } from "react-router-dom";
+import Button from "../components/communs/Button";
 
 const About = () => {
   return (
@@ -26,6 +28,10 @@ const About = () => {
           commune et partagée.
         </p>
         <SoftSkills />
+
+        <Link to="/cv">
+          <Button className="mt-14">Continuer</Button>
+        </Link>
       </div>
     </>
   );
