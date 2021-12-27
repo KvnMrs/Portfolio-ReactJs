@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Experiences from "../components/uniques/Experiences";
 import Formations from "../components/uniques/Formations";
-import Skills from "../components/uniques/Skills";
+import Skills from "../components/uniques/HardSkills";
 import Button from "../components/communs/Button";
 
 const Cv = () => {

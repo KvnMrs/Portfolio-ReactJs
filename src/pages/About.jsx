@@ -1,9 +1,10 @@
 import React from "react";
+import SoftSkills from "../components/uniques/SoftSkills";
 
 const About = () => {
   return (
     <>
-      <div className="mx-auto p-28">
+      <div className="mx-auto text-center p-28">
         <h2 className="text-white  text-3xl mb-6"> En quelques mots..</h2>
         <p className="text-gray-200 text-2xl">
           Nantais de 27 ans qui a décidé de faire prendre un
@@ -24,6 +25,7 @@ const About = () => {
           besoins et du suivi de ce dernier, afin d'aboutir à une satisfaction
           commune et partagée.
         </p>
+        <SoftSkills />
       </div>
     </>
   );
