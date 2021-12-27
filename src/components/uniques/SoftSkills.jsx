@@ -4,7 +4,7 @@ import dataSkills from "../../datas/DatasSkills";
 const SoftSkills = () => {
   return (
     <>
-      <h1 className="text-3xl text-white mt-16">Mes atouts</h1>
+      <h1 className="text-3xl text-white mt-20">Mes atouts</h1>
       <div className="flex place-content-center my-5">
         {dataSkills
           .filter((atout) => atout.catégorie === "Atout")
