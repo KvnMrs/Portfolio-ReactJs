@@ -30,7 +30,7 @@ const Cv = () => {
         <div className="mt-2">
           <Button onClick={showExperiences}>Mes experiences</Button>
           <Button onClick={showFormations}>Mes formations</Button>
-          <Button onClick={showSkills}>Atouts / Compétences / Outils</Button>
+          <Button onClick={showSkills}>Compétences / Outils</Button>
         </div>
         {activeExperiences ? <Experiences /> : ""}
         {activeFormations ? <Formations /> : ""}
