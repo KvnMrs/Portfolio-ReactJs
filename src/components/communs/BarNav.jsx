@@ -14,7 +14,7 @@ const BarNav = () => {
             className="rounded-full w-44 mx-auto my-5"
           />
           <h1 className="text-4xl font-bold mt-6">Marais Kévin</h1>
-          <h2 className="text-xl font-semibold m-1">Developpeur Web Junior</h2>
+          <h2 className="text-xl font-semibold m-1">Développeur Web Junior</h2>
           {/* IMG PROFIL */}
         </div>
         <span className="border-solid border-b-2 border-white w-36 m-auto" />
