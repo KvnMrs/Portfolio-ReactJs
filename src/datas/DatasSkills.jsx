@@ -15,7 +15,7 @@ import img_autonome from "../assets/imgSoftSkills/autonome.png";
 import img_curieux from "../assets/imgSoftSkills/curieux.png";
 import img_esprit_equipe from "../assets/imgSoftSkills/espritEquipe.png";
 import img_logique from "../assets/imgSoftSkills/logique.png";
-import img_perseverant from "../assets/imgSoftSkills/perseverant.png";
+import img_ecoute from "../assets/imgSoftSkills/ecoute.png";
 
 const dataSkills = [
   /********** SOFTS SKILLS ***************/
@@ -31,7 +31,7 @@ const dataSkills = [
     element: "Autonome",
   },
   {
-    image: img_perseverant,
+    image: img_ecoute,
     catégorie: "Atout",
     element: "Perséverant",
   },
