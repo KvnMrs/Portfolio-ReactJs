@@ -7,7 +7,10 @@ const About = () => {
   return (
     <>
       <div className="mx-auto text-center p-28">
-        <h2 className="text-white  text-3xl mb-6"> En quelques mots..</h2>
+        <h2 className="text-white text-3xl mb-6 pb-2 border-b w-72 mx-auto">
+          {" "}
+          En quelques mots...
+        </h2>
         <p className="text-gray-200 text-2xl">
           Nantais de 27 ans qui a décidé de faire prendre un
           <span className="font-bold"> tournant</span> à sa vie
