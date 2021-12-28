@@ -14,7 +14,7 @@ const SoftSkills = () => {
                 {el.element}
               </div>
               <div className="items-center w-20  p-2 border-4 border-dark_blue rounded-lg">
-                <img src={el.image} />
+                <img alt={el.catégorie} src={el.image} />
               </div>
             </div>
           ))}

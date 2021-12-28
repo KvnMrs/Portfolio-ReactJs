@@ -14,7 +14,11 @@ const HardSkills = () => {
                 <div className="mx-5  mb-3 text-xl text-white object-center">
                   {el.element}
                 </div>
-                <img src={el.image} className="w-20 h-16 mx-auto" />
+                <img
+                  alt={el.catégorie}
+                  src={el.image}
+                  className="w-20 h-16 mx-auto"
+                />
               </div>
             ))}
         </div>
@@ -28,7 +32,11 @@ const HardSkills = () => {
                 <div className="mx-5 mb-3 text-xl text-white object-center">
                   {el.element}
                 </div>
-                <img src={el.image} className="w-20 h-16 mx-auto" />
+                <img
+                  alt={el.catégorie}
+                  src={el.image}
+                  className="w-20 h-16 mx-auto"
+                />
               </div>
             ))}
         </div>
