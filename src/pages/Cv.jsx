@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Experiences from "../components/uniques/Experiences";
 import Formations from "../components/uniques/Formations";
-import Skills from "../components/uniques/HardSkills";
+import HardSkills from "../components/uniques/HardSkills";
 import Button from "../components/communs/Button";
 
 const Cv = () => {
@@ -26,6 +26,7 @@ const Cv = () => {
   };
   return (
     <>
+      {/* <div className="w-full text-center mx-auto mt-5 list-none h-screen place-content-center "> */}
       <div className="w-full text-center mx-auto mt-5 list-none h-screen place-content-center ">
         <div className="mt-2">
           <Button onClick={showExperiences}>Mes experiences</Button>
@@ -34,8 +35,9 @@ const Cv = () => {
         </div>
         {activeExperiences ? <Experiences /> : ""}
         {activeFormations ? <Formations /> : ""}
-        {activeSkills ? <Skills /> : ""}
+        {activeSkills ? <HardSkills /> : ""}
       </div>
+      {/* <Button className="mx-auto">Continuer</Button> */}
     </>
   );
 };
