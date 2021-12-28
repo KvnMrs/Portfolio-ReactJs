@@ -30,7 +30,7 @@ const About = () => {
         <SoftSkills />
 
         <Link to="/cv">
-          <Button className="mt-14">Continuer</Button>
+          <Button className="mt-10">Continuer</Button>
         </Link>
       </div>
     </>

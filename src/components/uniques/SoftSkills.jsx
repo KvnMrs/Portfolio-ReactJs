@@ -13,7 +13,7 @@ const SoftSkills = () => {
               <div className="mx-5  mb-3 text-2xl text-white ">
                 {el.element}
               </div>
-              <div className="items-center w-20  p-2 border-4 border-dark_blue rounded-lg">
+              <div className="items-center w-20  p-2 border bg-dark_blue rounded-lg">
                 <img alt={el.catégorie} src={el.image} />
               </div>
             </div>
