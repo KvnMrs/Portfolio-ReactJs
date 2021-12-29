@@ -15,22 +15,22 @@ const Contact = () => {
       <div className=" h-screen w-full flex flex-col items-center shadow-2xl ">
         {" "}
         <p className="text-2xl text-white text-center h-1/6 mt-10 ">
-          Une information, un premier contact professionel, un feedback <br />
+          Un contact professionel, une question, un feedback <br />
           contactez-moi 📝
         </p>{" "}
         <div className="w-5/12 bg-dark_blue gradiant-dark rounded-2xl h-5/6 mb-10 px-5 py-8 shadow-2xl ">
           <form className="grid grid-cols-1 h-full w-7/12 mx-auto">
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="reason">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="reason">
               Motif :
             </label>
 
             <select id="reason" onChange={(e) => setReason(e.target.value)}>
               <option>Contact professionel</option>
-              <option>Demande infos</option>
+              <option>Question(s)</option>
               <option>feedback</option>
             </select>
 
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="nom">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="nom">
               Prénom :
             </label>
             <input
@@ -40,7 +40,7 @@ const Contact = () => {
               value={firstname}
               onChange={(e) => setFirstname(e.target.value)}
             />
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="prenom">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="prenom">
               Nom :
             </label>
             <input
@@ -50,7 +50,7 @@ const Contact = () => {
               value={lastname}
               onChange={(e) => setLastname(e.target.value)}
             />
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="email">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="email">
               Adresse Mail :
             </label>
             <input
@@ -60,7 +60,7 @@ const Contact = () => {
               value={mail}
               onChange={(e) => setMail(e.target.value)}
             />
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="phone">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="phone">
               Téléphone :
             </label>
             <input
@@ -70,7 +70,7 @@ const Contact = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
-            <label className="h-0 mt-5 mb-3 text-white" htmlFor="message">
+            <label className="h-2 mt-5 mb-3 text-white" htmlFor="message">
               Votre message :
             </label>
             <textarea

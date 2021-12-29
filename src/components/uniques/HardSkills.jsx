@@ -5,7 +5,9 @@ const HardSkills = () => {
   return (
     <>
       <div className="w-11/12 bg-dark_blue scrollbar-hide gradiant-dark rounded-2xl overflow-scroll h-5/6 mx-auto my-6 px-5 py-10  shadow-2xl ">
-        <h1 className="text-3xl text-white mt-8">Compétences</h1>
+        <h2 className="text-white text-3xl mb-6 pb-2 border-b w-60 mx-auto">
+          Compétences
+        </h2>
         <div className="grid grid-cols-3 gap-4 place-content-center my-5 flex-wrap">
           {dataSkills
             .filter((compétence) => compétence.catégorie === "Compétence")
@@ -23,7 +25,9 @@ const HardSkills = () => {
             ))}
         </div>
 
-        <h1 className="text-3xl text-white mt-8">Outils</h1>
+        <h2 className="text-white text-3xl mb-6 pb-2 border-b w-32 mx-auto">
+          Outils
+        </h2>
         <div className="grid grid-cols-3 gap-4 place-content-center my-5 flex-wrap">
           {dataSkills
             .filter((outil) => outil.catégorie === "Outil")

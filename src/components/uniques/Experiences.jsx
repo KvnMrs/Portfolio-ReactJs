@@ -14,7 +14,6 @@ const ExperiencesRestauration = () => {
               <h2 className="text-2xl text-gray-400">{exp.date}</h2>
               <h3 className="text-xl text-gray-400">{exp.statut}</h3>
               <p className="text-xl text-gray-400 italic">{exp.mission}</p>
-              {/* <span className="border-solid border-b-2 border-white w-36 m-auto" /> */}
             </div>
           </>
         ))}

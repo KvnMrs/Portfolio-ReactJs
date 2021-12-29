@@ -27,7 +27,7 @@ const Cv = () => {
   return (
     <>
       {/* <div className="w-full text-center mx-auto mt-5 list-none h-screen place-content-center "> */}
-      <div className="w-full text-center mx-auto mt-5 list-none h-screen place-content-center ">
+      <div className="w-full text-center mx-auto mt-5 list-none max-h-screen place-content-center scrollbar-hide">
         <div className="mt-2">
           <Button onClick={showExperiences}>Mes experiences</Button>
           <Button onClick={showFormations}>Mes formations</Button>
