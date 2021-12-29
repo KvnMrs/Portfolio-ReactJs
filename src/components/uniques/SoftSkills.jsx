@@ -4,10 +4,10 @@ import dataSkills from "../../datas/DatasSkills";
 const SoftSkills = () => {
   return (
     <>
-      <h1 className="text-3xl text-white mt-20 pb-2 border-b w-60 mx-auto">
+      <h1 className="text-3xl text-white mt-16 pb-2 border-b w-60 mx-auto">
         Mes atouts
       </h1>
-      <div className="flex place-content-center my-5">
+      <div className="flex place-content-center my-2">
         {dataSkills
           .filter((atout) => atout.catégorie === "Atout")
           .map((el) => (

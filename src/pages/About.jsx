@@ -6,7 +6,7 @@ import Button from "../components/communs/Button";
 const About = () => {
   return (
     <>
-      <div className="mx-auto text-center p-28">
+      <div className="mx-auto text-center p-24">
         <h2 className="text-white text-3xl mb-6 pb-2 border-b w-72 mx-auto">
           {" "}
           En quelques mots...
@@ -33,7 +33,7 @@ const About = () => {
         <SoftSkills />
 
         <Link to="/cv">
-          <Button className="mt-10">Continuer</Button>
+          <Button className="mt-16">Continuer</Button>
         </Link>
       </div>
     </>
