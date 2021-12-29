@@ -34,7 +34,7 @@ const dataSkills = [
   {
     image: img_ecoute,
     catégorie: "Atout",
-    element: "Perséverant",
+    element: "Sens de l'écoute",
   },
   {
     image: img_logique,
