@@ -12,7 +12,7 @@ import BarNav from "./components/communs/BarNav";
 function App() {
   return (
     <>
-      <div className="bg-light_blue flex h-screen w-screen fixed ">
+      <div className="bg-light_blue flex h-screen w-screen  ">
         {/* Barre Nav */}
         <BarNav />
         {/* Routes */}
