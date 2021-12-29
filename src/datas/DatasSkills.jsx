@@ -11,6 +11,7 @@ import img_GitHub from "../assets/imgTool/GitHub.png";
 import img_VScode from "../assets/imgTool/VScode.png";
 import img_Figma from "../assets/imgTool/Figma.png";
 import img_Airtable from "../assets/imgTool/Airtable.png";
+import img_Trello from "../assets/imgTool/Trello.png";
 import img_autonome from "../assets/imgSoftSkills/autonome.png";
 import img_curieux from "../assets/imgSoftSkills/curieux.png";
 import img_esprit_equipe from "../assets/imgSoftSkills/espritEquipe.png";
@@ -110,6 +111,11 @@ const dataSkills = [
     catégorie: "Outil",
     element: "Figma",
     image: img_Figma,
+  },
+  {
+    catégorie: "Outil",
+    element: "Trello",
+    image: img_Trello,
   },
   {
     catégorie: "Outil",
