@@ -1,7 +1,11 @@
+import img_WCS from "../assets/imgFormations/WCS.png";
+import img_CFA from "../assets/imgFormations/CFA_Coiffure.png";
+
 const dataFormations = [
   /********** RESTAURATION ***************/
   {
     id: 1,
+    image: img_WCS,
     date: "2021 - 2022",
     centre: "Wild Code School",
     lieu: "Nantes",
@@ -9,6 +13,7 @@ const dataFormations = [
   },
   {
     id: 2,
+    image: img_CFA,
     date: "2014 - 2016",
     centre: "C.F.A de la coiffure et de l’esthétique ",
     lieu: "Saint-Herblain ",
@@ -16,6 +21,7 @@ const dataFormations = [
   },
   {
     id: 3,
+    image: img_CFA,
     date: "2010 - 2014",
     centre: "C.F.A de la coiffure et de l’esthétique ",
     lieu: "Saint-Herblain ",

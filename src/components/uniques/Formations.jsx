@@ -10,10 +10,20 @@ const Fomations = () => {
           <>
             <div className=" w-3/4 text-center py-8 px-20 m-auto ">
               {formation.id === 1 ? (
-                <h1 className="text-3xl text-wild_red">{formation.centre}</h1>
+                <img
+                  alt={formation.centre}
+                  src={formation.image}
+                  className="w-48 mx-auto mb-5"
+                />
               ) : (
-                <h1 className="text-3xl text-white">{formation.centre}</h1>
+                <img
+                  alt={formation.centre}
+                  src={formation.image}
+                  className="w-36 mx-auto mb-8"
+                />
               )}
+
+              <h1 className="text-3xl text-white">{formation.centre}</h1>
               <h2 className="text-2xl text-gray-400">{formation.lieu}</h2>
               <h2 className="text-2xl text-gray-400">{formation.date}</h2>
               <h3 className="text-xl text-gray-400 italic">
