@@ -23,7 +23,7 @@ const dataCv = [
     lieu: "Saint-Sébastien",
     statut: "Serveur",
     mission:
-      "Préparation de la salle et du service, envoi des commandes, néttoyage de la salle",
+      "Préparation de la salle et du service, envoi des commandes, nettoyage de la salle",
     categorie: "restauration",
   },
   {
@@ -51,7 +51,7 @@ const dataCv = [
     lieu: "Saint-Herblain",
     statut: "Agent de production",
     mission:
-      "Réalisation des commandes quotidienne, respect des protocole d'hygienne et de sécurité",
+      "Réalisation des commandes quotidiennes, respect des protocoles d'hygienne et de sécurité",
     categorie: "autre",
   },
   /********** COIFFURE ***************/
@@ -94,7 +94,7 @@ const dataCv = [
     entreprise: "Salon Saint-Joseph",
     lieu: "Saint Joseph de Porterie",
     statut: "Apprenti - CAP",
-    mission: "Apprentissage des différentes technique de coupe et coloration",
+    mission: "Apprentissage des différentes techniques de coupe et coloration",
     categorie: "coiffure",
   },
 ];
