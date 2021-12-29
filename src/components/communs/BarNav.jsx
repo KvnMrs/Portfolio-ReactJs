@@ -5,7 +5,7 @@ import img_profil from "../../assets/imgBarNav/img_profil.png";
 const BarNav = () => {
   return (
     <>
-      <div className="bg-dark_blue text-white grid flex-shrink-0 w-80 h-screen text-center px-6  ">
+      <div className="hidden lg:flex flex-col bg-dark_blue text-white flex-shrink-0 w-80 text-center px-6">
         {/* PRENOM NOM */}
         <div className="mt-3">
           <img
@@ -19,7 +19,7 @@ const BarNav = () => {
         </div>
         <span className="border-solid border-b-2 border-white w-36 m-auto" />
         {/* NAVIGATION */}
-        <div className="grid flex-shrink-0 grid-col text-2xl h-80 mt-20">
+        <div className="flex-shrink-0 text-2xl h-80 mt-16">
           <Link to="/">
             <button
               type="button"
