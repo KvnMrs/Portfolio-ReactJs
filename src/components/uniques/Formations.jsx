@@ -19,7 +19,6 @@ const Fomations = () => {
               <h3 className="text-xl text-gray-400 italic">
                 {formation.statut}
               </h3>
-              {/* <span className="border-solid border-b-2 border-white w-36 m-auto" /> */}
             </div>
           </>
         ))}
