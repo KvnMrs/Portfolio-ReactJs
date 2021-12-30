@@ -8,6 +8,15 @@ module.exports = {
         light_blue: "#243B55",
         wild_red: "#F76C6C",
       },
+      screens: {
+        md: "650px",
+        // => @media (min-width: 650px) { ... }
+
+        lg: "950px",
+        // => @media (min-width: 950px) { ... }
+        xl: "1100px",
+        // => @media (min-width: 950px) { ... }
+      },
     },
   },
   variants: {

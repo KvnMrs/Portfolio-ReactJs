@@ -11,15 +11,14 @@ const Contact = () => {
 
   return (
     <>
-      <div className=" h-screen w-full flex flex-col items-center shadow-2xl ">
-        {" "}
-        <p className="text-2xl text-white text-center h-1/6 mt-10 ">
+      <div className="w-full flex flex-col items-center shadow-2xl ">
+        <p className="text-lg lg:text-2xl text-white text-center h-1/6 mt-10 mx-1 mb-5">
           Un contact professionel, une question, un feedback <br />
           contactez-moi 📝
         </p>{" "}
-        <div className="w-5/12 bg-dark_blue gradiant-dark rounded-2xl h-5/6 mb-10 px-5 py-8 shadow-2xl ">
+        <div className="w-10/12 xl:w-7/12 bg-dark_blue gradiant-dark rounded-2xl h-5/6 mb-5  py-8 shadow-2xl ">
           <form className="grid grid-cols-1 h-full w-7/12 mx-auto">
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="reason">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="reason">
               Motif :
             </label>
 
@@ -29,7 +28,7 @@ const Contact = () => {
               <option>feedback</option>
             </select>
 
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="nom">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="nom">
               Prénom :
             </label>
             <input
@@ -38,8 +37,9 @@ const Contact = () => {
               name="nom"
               value={firstname}
               onChange={(e) => setFirstname(e.target.value)}
+              className="py-0.5"
             />
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="prenom">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="prenom">
               Nom :
             </label>
             <input
@@ -48,8 +48,9 @@ const Contact = () => {
               name="prenom"
               value={lastname}
               onChange={(e) => setLastname(e.target.value)}
+              className="py-0.5"
             />
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="email">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="email">
               Adresse Mail :
             </label>
             <input
@@ -58,8 +59,9 @@ const Contact = () => {
               name="email"
               value={mail}
               onChange={(e) => setMail(e.target.value)}
+              className="py-0.5"
             />
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="phone">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="phone">
               Téléphone :
             </label>
             <input
@@ -68,8 +70,9 @@ const Contact = () => {
               name="phone"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
+              className="py-0.5"
             />
-            <label className="h-2 mt-5 mb-3 text-white" htmlFor="message">
+            <label className="h-2 mt-5 mb-5 text-white" htmlFor="message">
               Votre message :
             </label>
             <textarea
@@ -77,13 +80,14 @@ const Contact = () => {
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              className="h-36"
             />
 
             <a
               href={`mailto:kevin.mrs2020@gmail.com?subject=${reason}&body=${firstname} ${lastname.toUpperCase()}%0A${mail}%0A${phone}%0A%0A${message}`}
               className="text-center"
             >
-              <Button type="submit" className="mt-10">
+              <Button type="submit" className="mt-8">
                 Envoyer
               </Button>
             </a>

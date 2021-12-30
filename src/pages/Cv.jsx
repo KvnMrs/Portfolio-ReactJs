@@ -26,18 +26,22 @@ const Cv = () => {
   };
   return (
     <>
-      {/* <div className="w-full text-center mx-auto mt-5 list-none h-screen place-content-center "> */}
-      <div className="w-full text-center mx-auto mt-5 list-none max-h-screen place-content-center scrollbar-hide">
+      <div className="w-full text-center mx-auto mt-5 list-none h-full md:h-screen md:max-h-screen place-content-center scrollbar-hide">
         <div className="mt-2">
-          <Button onClick={showExperiences}>Mes experiences</Button>
-          <Button onClick={showFormations}>Mes formations</Button>
-          <Button onClick={showSkills}>Compétences / Outils</Button>
+          <Button onClick={showExperiences} className="m-2 lg:mx-2 md:mb-0">
+            Mes experiences
+          </Button>
+          <Button onClick={showFormations} className="m-2 lg:mx-2 md:mb-0">
+            Mes formations
+          </Button>
+          <Button onClick={showSkills} className="m-2 mb-0 lg:mx-2 md:mb-0">
+            Compétences / Outils
+          </Button>
         </div>
         {activeExperiences ? <Experiences /> : ""}
         {activeFormations ? <Formations /> : ""}
         {activeSkills ? <HardSkills /> : ""}
       </div>
-      {/* <Button className="mx-auto">Continuer</Button> */}
     </>
   );
 };
