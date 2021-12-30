@@ -6,12 +6,11 @@ import Button from "../components/communs/Button";
 const About = () => {
   return (
     <>
-      <div className="mx-auto text-center p-24">
-        <h2 className="text-white text-3xl mb-6 pb-2 border-b w-72 mx-auto">
-          {" "}
+      <div className="text-center my-auto p-4">
+        <h2 className="text-white text-3xl pb-2 border-b w-72 mx-auto">
           En quelques mots...
         </h2>
-        <p className="text-gray-200 text-2xl">
+        <p className="text-gray-200 text-xl md:text-2xl text-justify px-10 my-6 lg:my-12">
           Nantais de 27 ans qui a décidé de faire prendre un
           <span className="font-bold"> tournant</span> à sa vie
           <span className="font-bold"> professionnelle</span>.
@@ -33,7 +32,7 @@ const About = () => {
         <SoftSkills />
 
         <Link to="/cv">
-          <Button className="mt-16">Continuer</Button>
+          <Button className="my-6">Continuer</Button>
         </Link>
       </div>
     </>
