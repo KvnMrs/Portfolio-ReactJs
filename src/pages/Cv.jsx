@@ -3,6 +3,7 @@ import Experiences from "../components/uniques/Experiences";
 import Formations from "../components/uniques/Formations";
 import HardSkills from "../components/uniques/HardSkills";
 import Button from "../components/communs/Button";
+import { Link } from "react-router-dom";
 
 const Cv = () => {
   const [activeExperiences, setActiveExperiences] = useState(true);
@@ -41,6 +42,9 @@ const Cv = () => {
         {activeExperiences ? <Experiences /> : ""}
         {activeFormations ? <Formations /> : ""}
         {activeSkills ? <HardSkills /> : ""}
+        <Link to="/portfolio">
+          <Button className="my-2 md:hidden">Continuer</Button>
+        </Link>
       </div>
     </>
   );
