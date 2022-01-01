@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Cv from "./pages/Cv";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
-import BarNav from "./components/communs/BarNav";
+import BarNavDesktop from "./components/communs/BarNavDesktop";
 // import Experiences from "./components/uniques/Experiences";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="bg-light_blue flex w-screen h-full min-h-screen">
         {/* Barre Nav */}
-        <BarNav />
+        <BarNavDesktop />
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
