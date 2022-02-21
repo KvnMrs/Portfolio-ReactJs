@@ -23,7 +23,6 @@ function App() {
           <Route path="/a-propos" element={<About />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          {/* <Route path="/cv/experiences" element={<Experiences />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
