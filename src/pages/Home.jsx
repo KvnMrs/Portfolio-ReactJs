@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div>
           <Link to="/a-propos">
-            <Button>Continuer</Button>
+            <Button className="mt-10">Continuer</Button>
           </Link>
         </div>
       </div>
