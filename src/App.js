@@ -6,15 +6,16 @@ import About from "./pages/About";
 import Cv from "./pages/Cv";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
-import BarNav from "./components/communs/BarNav";
-// import Experiences from "./components/uniques/Experiences";
+import BarNavDesktop from "./components/communs/BarNavDesktop";
+import BarNavMobile from "./components/communs/BarNavMobile";
 
 function App() {
   return (
     <>
       <div className="bg-light_blue flex w-screen h-full min-h-screen">
         {/* Barre Nav */}
-        <BarNav />
+        <BarNavDesktop />
+        <BarNavMobile />
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
