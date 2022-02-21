@@ -6,12 +6,12 @@ import Button from "../components/communs/Button";
 const About = () => {
   return (
     <>
-      <div className="text-center my-auto p-4">
+      <div className="text-center my-auto pt-16">
         <h2 className="text-white text-3xl pb-2 border-b w-72 mx-auto">
           En quelques mots...
         </h2>
         <p className="text-gray-200 text-xl md:text-2xl text-justify px-10 my-6 lg:my-12">
-          Nantais de 27 ans qui a décidé de faire prendre un
+          Nantais de 28 ans qui a décidé de faire prendre un
           <span className="font-bold"> tournant</span> à sa vie
           <span className="font-bold"> professionnelle</span>.
           <span className="font-bold"> Actuellement</span> en formation au sein

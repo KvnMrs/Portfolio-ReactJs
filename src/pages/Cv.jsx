@@ -3,7 +3,6 @@ import Experiences from "../components/uniques/Experiences";
 import Formations from "../components/uniques/Formations";
 import HardSkills from "../components/uniques/HardSkills";
 import Button from "../components/communs/Button";
-import { Link } from "react-router-dom";
 
 const Cv = () => {
   const [activeExperiences, setActiveExperiences] = useState(true);
@@ -27,24 +26,19 @@ const Cv = () => {
   };
   return (
     <>
-      <div className="w-full text-center mx-auto mt-5 list-none h-full md:h-screen md:max-h-screen place-content-center scrollbar-hide">
-        <div className="mt-2">
-          <Button onClick={showExperiences} className="m-2 lg:mx-2 md:mb-0">
-            Mes experiences
-          </Button>
-          <Button onClick={showFormations} className="m-2 lg:mx-2 md:mb-0">
-            Mes formations
-          </Button>
-          <Button onClick={showSkills} className="m-2 mb-0 lg:mx-2 md:mb-0">
-            Compétences / Outils
-          </Button>
-        </div>
+      <div className="w-full text-center mx-auto pt-20 pb-5 lg:pb-0 lg:pt-0 lg:mt-5 list-none h-full md:h-screen md:max-h-screen place-content-center scrollbar-hide">
+        <Button onClick={showExperiences} className="m-2 lg:mx-2 md:mb-0">
+          Mes experiences
+        </Button>
+        <Button onClick={showFormations} className="m-2 lg:mx-2 md:mb-0">
+          Mes formations
+        </Button>
+        <Button onClick={showSkills} className="m-2 mb-0 lg:mx-2 md:mb-0">
+          Compétences / Outils
+        </Button>
         {activeExperiences ? <Experiences /> : ""}
         {activeFormations ? <Formations /> : ""}
         {activeSkills ? <HardSkills /> : ""}
-        <Link to="/portfolio">
-          <Button className="my-2 md:hidden">Continuer</Button>
-        </Link>
       </div>
     </>
   );
