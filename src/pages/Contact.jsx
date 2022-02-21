@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="w-full flex flex-col items-center shadow-2xl ">
+      <div className="w-full flex flex-col pt-10 lg:pt-0 items-center shadow-2xl ">
         <p className="text-lg lg:text-2xl text-white text-center h-1/6 mt-10 mx-1 mb-5">
           Un contact professionel, une question, un feedback <br />
           contactez-moi 📝

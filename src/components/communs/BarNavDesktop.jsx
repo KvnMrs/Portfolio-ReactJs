@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img_profil from "../../assets/imgBarNav/img_profil.png";
 
-const BarNav = () => {
+const BarNavDesktop = () => {
   return (
     <>
       <div className="hidden lg:flex flex-col bg-dark_blue text-white flex-shrink-0 lg:w-64 xl:w-80 text-center px-6">
@@ -120,4 +120,4 @@ const BarNav = () => {
   );
 };
 
-export default BarNav;
+export default BarNavDesktop;

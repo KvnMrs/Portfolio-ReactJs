@@ -5,10 +5,10 @@ import Button from "../components/communs/Button";
 const Home = () => {
   return (
     <>
-      <div className="text-center mx-auto mt-20 text-white">
-        <div className="mt-20">
-          <h1 className="text-4xl">Bonjour et bienvenue. 🙂 </h1>
-        </div>
+      <div className="text-center self-center flex-auto text-white pt-28 lg:pt-0 ">
+        {/* <div className=" lg:mt-20"> */}
+        <h1 className="text-3xl lg:text-4xl">Bonjour et bienvenue. 🙂</h1>
+        {/* </div> */}
 
         <div>
           <p className="text-2xl mt-20">

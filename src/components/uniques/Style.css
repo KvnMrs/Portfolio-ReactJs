@@ -4,3 +4,121 @@
 .gradiant-light {
   background: radial-gradient(#141e30, #243b55);
 }
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 24px;
+  left: 2%;
+  top: 2%;
+}
+
+.bm-burger-bars {
+  background: white;
+  z-index: 50;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  border-left: 5px solid #e26b4c;
+  z-index: 50;
+  /* background: radial-gradient(#37577a, #1e2c46); */
+  /* background-color: #141e30; */
+}
+.menu-item--small {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-left: 5px solid #e26b4c;
+  padding-left: 20px;
+  z-index: 50;
+}
+
+.menu-item--small:hover {
+  color: #e26b4c;
+  z-index: 50;
+}
+
+.menu-item:hover {
+  color: #e26b4c;
+  z-index: 50;
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+  z-index: 50;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #e26b4c;
+  z-index: 50;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  z-index: 50;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+  z-index: 50;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  z-index: 50;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: radial-gradient(#37577a, #1e2c46);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  z-index: 50;
+  width: 100%;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+  z-index: 50;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0em;
+  z-index: 50;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  z-index: 50;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 50;
+}
