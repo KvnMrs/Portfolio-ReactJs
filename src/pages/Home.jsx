@@ -24,7 +24,6 @@ const Home = () => {
           </h2>
         </div>
         <div>
-          <p className="mt-20 mb-2 text-white text-1xl"> (N'hésitez pas à)</p>
           <Link to="/a-propos">
             <Button>Continuer</Button>
           </Link>
