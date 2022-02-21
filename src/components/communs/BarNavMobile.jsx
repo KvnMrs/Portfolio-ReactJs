@@ -1,9 +1,10 @@
 import React from "react";
+import BurgerButton from "../uniques/BurgerButton";
 
 function BarNavMobile() {
   return (
     <>
-      <div className="lg:hidden flex"></div>
+      <BurgerButton isOpen={false} />
     </>
   );
 }
