@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import dataSkills from "../../datas/DatasSkills";
 import Modal from "react-modal";
 import Button from "../communs/Button";
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const customStyles = {
   content: {
@@ -17,20 +19,17 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const SoftSkills = () => {
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const { id } = useParams();
 
   function openModal() {
     setIsOpen(true);
   }
 
-  // function afterOpenModal() {
-  //   // references are now sync'd and can be accessed.
-  //   subtitle.style.color = "radial-gradient(#37577a, #1e2c46)";
-  // }
-
   function closeModal() {
     setIsOpen(false);
   }
+  console.log(id);
   return (
     <>
       <div>
@@ -42,14 +41,16 @@ const SoftSkills = () => {
             .filter((atout) => atout.catégorie === "Atout")
             .map((el) => (
               <button onClick={openModal}>
-                <div className="flex flex-col items-center my-5 mx-2 ">
-                  <div className=" lg:mx-5 mb-3 text-lg lg:text-2xl text-white ">
-                    {el.element}
+                <Link to={`/a-propos/${el.id}`}>
+                  <div className="flex flex-col items-center my-5 mx-2 ">
+                    <div className=" lg:mx-5 mb-3 text-lg lg:text-2xl text-white ">
+                      {el.element}
+                    </div>
+                    <div className="items-center mx-6 w-12 md:w-14 lg:w-16 p-2 border bg-dark_blue rounded-lg">
+                      <img alt={el.catégorie} src={el.image} />
+                    </div>
                   </div>
-                  <div className="items-center mx-6 w-12 md:w-14 lg:w-16 p-2 border bg-dark_blue rounded-lg">
-                    <img alt={el.catégorie} src={el.image} />
-                  </div>
-                </div>
+                </Link>
               </button>
             ))}
         </div>
@@ -61,6 +62,7 @@ const SoftSkills = () => {
           contentLabel="Example Modal"
           // className={"grdiant-dark"}
         >
+          <h2>{}</h2>
           <Button onClick={closeModal}>close</Button>
         </Modal>
       </div>
