@@ -22,26 +22,31 @@ const dataSkills = [
   /********** SOFTS SKILLS ***************/
 
   {
+    id: 1,
     image: img_esprit_equipe,
     catégorie: "Atout",
     element: "Esprit d'équipe",
   },
   {
+    id: 2,
     image: img_autonome,
     catégorie: "Atout",
     element: "Autonome",
   },
   {
+    id: 3,
     image: img_ecoute,
     catégorie: "Atout",
     element: "Sens de l'écoute",
   },
   {
+    id: 4,
     image: img_logique,
     catégorie: "Atout",
     element: "Logique",
   },
   {
+    id: 5,
     image: img_curieux,
     catégorie: "Atout",
     element: "Curieux",
