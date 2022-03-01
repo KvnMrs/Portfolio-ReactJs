@@ -12,7 +12,7 @@ import BarNavMobile from "./components/communs/BarNavMobile";
 function App() {
   return (
     <>
-      <div className="bg-light_blue flex w-screen h-full min-h-screen">
+      <div className="bg-light_blue flex max-w-screen  min-h-screen">
         {/* Barre Nav */}
         <BarNavDesktop />
         <BarNavMobile />

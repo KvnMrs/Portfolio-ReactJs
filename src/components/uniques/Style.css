@@ -1,6 +1,9 @@
 .gradiant-dark {
   background: radial-gradient(#243b55, #141e30);
 }
+.gradiant-medium {
+  background: radial-gradient(#37577a, #1e2c46);
+}
 .gradiant-light {
   background: radial-gradient(#141e30, #243b55);
 }
@@ -121,4 +124,16 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
   z-index: 50;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
 }

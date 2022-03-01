@@ -7,6 +7,7 @@ module.exports = {
         dark_blue: "#141E30",
         light_blue: "#243B55",
         wild_red: "#F76C6C",
+        orange: "#e26b4c",
       },
       screens: {
         md: "650px",

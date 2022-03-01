@@ -4,9 +4,11 @@ import Modal from "react-modal";
 import Button from "../communs/Button";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-
+import "./Style.css";
 const customStyles = {
   content: {
+    // width: "",
+    padding: "2px",
     top: "50%",
     left: "50%",
     right: "auto",
@@ -46,7 +48,7 @@ const SoftSkills = () => {
                     <div className=" lg:mx-5 mb-3 text-lg lg:text-2xl text-white ">
                       {el.element}
                     </div>
-                    <div className="items-center mx-6 w-12 md:w-14 lg:w-16 p-2 border bg-dark_blue rounded-lg">
+                    <div className="items-center mx-6 w-12 md:w-14 lg:w-16 p-2 border gradiant-dark rounded-lg">
                       <img alt={el.catégorie} src={el.image} />
                     </div>
                   </div>
@@ -62,8 +64,19 @@ const SoftSkills = () => {
           contentLabel="Example Modal"
           // className={"grdiant-dark"}
         >
-          <h2>{}</h2>
-          <Button onClick={closeModal}>close</Button>
+          {dataSkills
+            .filter((SoftSkillById) => id == SoftSkillById.id)
+            .map((softSkill) => (
+              <div className="text-center gradiant-medium p-8 ">
+                <h2 className="mb-5 text-lg lg:text-2xl text-orange">
+                  ~ {softSkill.element} ~
+                </h2>
+                <p className="w-44- sm:w-96 mx-auto mb-5 text-white">
+                  {softSkill.description}
+                </p>
+                <Button onClick={closeModal}>close</Button>
+              </div>
+            ))}
         </Modal>
       </div>
     </>
