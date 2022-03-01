@@ -26,30 +26,40 @@ const dataSkills = [
     image: img_esprit_equipe,
     catégorie: "Atout",
     element: "Esprit d'équipe",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     image: img_autonome,
     catégorie: "Atout",
     element: "Autonome",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     image: img_ecoute,
     catégorie: "Atout",
     element: "Sens de l'écoute",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 4,
     image: img_logique,
     catégorie: "Atout",
     element: "Logique",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 5,
     image: img_curieux,
     catégorie: "Atout",
     element: "Curieux",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 
   /********** HARDS SKILLS ***************/
