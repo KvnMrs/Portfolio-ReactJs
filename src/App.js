@@ -12,7 +12,7 @@ import BarNavMobile from "./components/communs/BarNavMobile";
 function App() {
   return (
     <>
-      <div className="bg-light_blue flex w-screen h-full min-h-screen">
+      <div className="bg-light_blue flex max-w-screen  min-h-screen">
         {/* Barre Nav */}
         <BarNavDesktop />
         <BarNavMobile />
@@ -21,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/a-propos" element={<About />} />
+          <Route path="/a-propos/:id" element={<About />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="*" element={<NotFound />} />
