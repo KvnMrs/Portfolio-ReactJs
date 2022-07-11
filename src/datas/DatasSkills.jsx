@@ -1,3 +1,4 @@
+// Hard Skills
 import img_tailwindcss from "../assets/imgHardSkills/Tailwindcss.png";
 import img_CSS from "../assets/imgHardSkills/css-3.png";
 import img_HTML from "../assets/imgHardSkills/html.png";
@@ -5,6 +6,8 @@ import img_JS from "../assets/imgHardSkills/JavaScript.png";
 import img_MySQL from "../assets/imgHardSkills/MySQL.png";
 import img_NodeJs from "../assets/imgHardSkills/NodeJs.png";
 import img_ReactJs from "../assets/imgHardSkills/ReactJs.png";
+import img_Angular from "../assets/imgHardSkills/Angular.png";
+import img_Firebase from "../assets/imgHardSkills/Firebase.png";
 import img_ESlint from "../assets/imgTool/ESlint.png";
 import img_Git from "../assets/imgTool/Git.png";
 import img_GitHub from "../assets/imgTool/GitHub.png";
@@ -12,6 +15,8 @@ import img_VScode from "../assets/imgTool/VScode.png";
 import img_Figma from "../assets/imgTool/Figma.png";
 import img_Airtable from "../assets/imgTool/Airtable.png";
 import img_Trello from "../assets/imgTool/Trello.png";
+
+// Soft Skillss
 import img_autonome from "../assets/imgSoftSkills/autonome.png";
 import img_curieux from "../assets/imgSoftSkills/curieux.png";
 import img_esprit_equipe from "../assets/imgSoftSkills/espritEquipe.png";
@@ -68,6 +73,16 @@ const dataSkills = [
     catégorie: "Compétence",
     element: "ReactJs",
     image: img_ReactJs,
+  },
+  {
+    catégorie: "Compétence",
+    element: "AngularJs",
+    image: img_Angular,
+  },
+  {
+    catégorie: "Compétence",
+    element: "Firebase",
+    image: img_Firebase,
   },
   {
     catégorie: "Compétence",
